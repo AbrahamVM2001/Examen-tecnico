@@ -1,0 +1,128 @@
+/* Librerias */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Grotesk&display=swap');
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el cuerpo del documento */
+
+body {
+    font-family: 'Lato', sans-serif;;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+a,p,ul,li{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Menu */
+.navbar {
+    background-color: #001F3F !important;
+  }
+  
+.navbar-brand {
+    color: white !important;
+}
+  
+.navbar-nav .nav-link {
+    color: white !important;
+}
+  
+.navbar-nav .nav-link.active {
+    background-color: #007bff !important;
+    color: white !important;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 0;
+}
+
+.login{
+    width: 20px;
+}
+
+/* formulario */
+
+.btn-form{
+    margin-top: 1%;
+    background-color: #001F3F;
+    color: #fff;
+}
+
+.btn-form:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 5px solid, #001F3F;
+}
+
+/* CPanel */
+/* Menu */
+
+.menu{
+    padding-top: 10%;
+    display: flex;
+}
+
+.iconos-menu{
+    width: 100px;
+}
+
+.Reporte-naves, .Reporte-planetas, .Reporte-envios{
+    text-align: center;
+    align-items: center;
+    margin: 12px 10px 12px 12px;
+    background-color: #001F3F;
+    width: 500px;
+    height: 200px;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: #fff;
+}
+
+.a-menu:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Login */
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.logo-login{
+    width: 25%;
+}
+
+.btn-form{
+    margin-top: 1%;
+    background-color: #001F3F;
+    color: #fff;
+}
+
+.btn-form:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 5px solid, #001F3F;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
